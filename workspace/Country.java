@@ -1,14 +1,55 @@
 public class Country
 {
-  // add private instance variables for the name, capital, language, and image file.
+  //instance variables
+  private String country;
+  private String capital;
+  private String lang;
+  private String image;
 
-  // add constructors
+  //constructor with inputs
+  public Country(String country, String capital, String lang, String image)
+  {
+    this.country = country;
+    this.capital = capital;
+    this.lang = lang;
+    this.image = image;
+  }
 
-  // Write accessor/get methods for each instance variable that returns it.
+  //default constructor
+  public Country()
+  {
+    country = "Undefined";
+    capital = "Undefined";
+    lang = "Undefined";
+    image = "Undefined";
+  }
 
-  // Write a toString() method that returns a concatenated String of 3 of the instance variables in a sentence like "..'s capital is .. and its primary language is ..."
- 
+  //getter/setter methods
+  public String getCountry() 
+  {
+    return country;
+  }
+
+  public String getCapital() 
+  {
+    return capital;
+  }
+
+  public String getLang() 
+  {
+    return lang;
+  }
+
+  public String getImage() 
+  {
+    return image;
+  }
 
 
+  //toString method that returns the country's name, capital and most used language
+  public String toString()
+  {
+    return country +"'s capital is " + capital + " and its most used language is " + lang;
+  }
   
 }
