@@ -1,6 +1,6 @@
 //Author: Roi Porat-Shliom
 //Date: 1/14/2025
-//Purpose: A globle like game that highlights a country on the UI and has review and quiz options where the user can test their geographical knowledge.
+//Purpose: A globle-esque game that highlights a country on the UI and has review and quiz options where the user can test their geographical knowledge.
 import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
